@@ -8,17 +8,17 @@
 
 **Never lose your GitHub streak again!**
 
-### [📦 Main Repository](https://github.com/0xReLogic/Streaky) • [🌐 Live Demo](https://streakyy.vercel.app)
+### [ Main Repository](https://github.com/0xReLogic/Streaky) • [ Live Demo](https://streakyy.vercel.app)
 
 </div>
 
 ---
 
-### 📖 Overview
+###  Overview
 
 Streaky is a web application that monitors your GitHub contribution streak and sends notifications when you're at risk of breaking it. Built with a distributed architecture to handle concurrent user processing efficiently.
 
-### 🎯 The Problem
+###  The Problem
 
 GitHub streaks represent consistency in coding habits, but it's easy to forget to commit on busy days. Existing solutions either:
 - Require manual checking
@@ -26,7 +26,7 @@ GitHub streaks represent consistency in coding habits, but it's easy to forget t
 - Lack proper security for credentials
 - Can't scale efficiently
 
-### 💡 The Solution
+###  The Solution
 
 A fully automated system with:
 - **Distributed Processing**: Each user processed in isolated Worker instance
@@ -34,7 +34,7 @@ A fully automated system with:
 - **Zero-Knowledge Security**: AES-256-GCM encryption, credentials never stored in plaintext
 - **Scalable Architecture**: Built on Cloudflare's edge network
 
-### 🏗️ Technical Architecture
+###  Technical Architecture
 
 ```
 ┌─────────────────┐
@@ -55,7 +55,7 @@ A fully automated system with:
 └─────────────────┘
 ```
 
-### 🛠️ Tech Stack
+###  Tech Stack
 
 **Frontend**
 - Next.js 15 (App Router)
@@ -76,7 +76,7 @@ A fully automated system with:
 - Idempotent queue system
 - Automated daily cron at 12:00 UTC
 
-### 🔥 Key Technical Challenges Solved
+###  Key Technical Challenges Solved
 
 #### 1. Distributed Cron Processing
 **Challenge**: Process thousands of users within Cloudflare Workers' 30-second CPU time limit.
@@ -126,7 +126,7 @@ const decrypted = await decrypt(encrypted, encryptionKey);
 - Notifications sent via isolated Rust proxy
 - No logging of sensitive data
 
-### 📊 Project Stats
+###  Project Stats
 
 - **Lines of Code**: ~5,000+ (TypeScript, Rust, Python)
 - **Components**: 3 (Web App, CLI, Notification Proxy)
@@ -134,18 +134,18 @@ const decrypted = await decrypt(encrypted, encryptionKey);
 - **API Endpoints**: 15+
 - **Test Coverage**: Unit tests for critical paths
 
-### 🎨 Design Philosophy
+###  Design Philosophy
 
 - **Clean & Minimal**: Black and white design, no distractions
 - **Privacy-First**: Zero-knowledge architecture, encrypted credentials
 - **Developer-Friendly**: Comprehensive docs, env examples, contributing guide
 - **Production-Ready**: Error handling, logging, monitoring
 
-### 🚀 Live Demo
+###  Live Demo
 
 Try it yourself: **[streakyy.vercel.app](https://streakyy.vercel.app)**
 
-### 📚 What I Learned
+###  What I Learned
 
 - Building distributed systems with Cloudflare Workers
 - Implementing idempotent operations for reliability
@@ -158,11 +158,11 @@ Try it yourself: **[streakyy.vercel.app](https://streakyy.vercel.app)**
 
 <div align="center">
 
-## 🔗 Links
+##  Links
 
-**[📦 Main Repository](https://github.com/0xReLogic/Streaky)** | **[🌐 Live Demo](https://streakyy.vercel.app)** | **[📖 Documentation](https://github.com/0xReLogic/Streaky#readme)**
+**[ Main Repository](https://github.com/0xReLogic/Streaky)** | **[ Live Demo](https://streakyy.vercel.app)** | **[ Documentation](https://github.com/0xReLogic/Streaky#readme)**
 
-**[🐛 Report Issues](https://github.com/0xReLogic/Streaky/issues)** | **[🤝 Contributing Guide](https://github.com/0xReLogic/Streaky/blob/main/CONTRIBUTING.md)**
+**[ Report Issues](https://github.com/0xReLogic/Streaky/issues)** | **[ Contributing Guide](https://github.com/0xReLogic/Streaky/blob/main/CONTRIBUTING.md)**
 
 ---
 
